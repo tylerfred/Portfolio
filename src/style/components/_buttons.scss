@@ -24,7 +24,6 @@
 /* Hero Style */
 .cta-btn--hero {
   background-image: linear-gradient(
-    padding: 25px,
     135deg,
     $primary-color 0%,
     $secondary-color 100%
@@ -75,6 +74,7 @@
 .cta-btn--resume {
   color: $white-color;
   border: 2px solid $white-color;
+  margin: 10px;
 
   &::after {
     background: $white-color;
